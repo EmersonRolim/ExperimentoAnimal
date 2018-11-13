@@ -11,4 +11,43 @@ package br.caso4.modelo;
  */
 public class bioterio {
     
+    private int idbioterio;
+    private String bioterio;
+
+    public int getIdbioterio() {
+        return idbioterio;
+    }
+
+    public void setIdbioterio(int idbioterio) {
+        this.idbioterio = idbioterio;
+    }
+
+    public String getBioterio() {
+        return bioterio;
+    }
+
+    public void setBioterio(String bioterio) {
+        this.bioterio = bioterio;
+    }
+
+    public bioterio(int idbioterio, String bioterio) {
+        this.idbioterio = idbioterio;
+        this.bioterio = bioterio;
+    }
+
+    public bioterio(String bioterio) {
+        this.bioterio = bioterio;
+    }
+
+    public bioterio() {
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
 }
